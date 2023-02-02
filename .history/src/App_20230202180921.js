@@ -1,10 +1,10 @@
 import "./App.css";
-import bgHome from "./assets/background.png";
+import bgHome from "./assets/background.png"
 
 function App() {
   return (
     <>
-      <section class="h-screen">
+      <section class="h-full">
         <div class="px-6 h-full text-gray-800">
           <div class="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
             <div class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">

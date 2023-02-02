@@ -1,5 +1,5 @@
 import "./App.css";
-import bgHome from "./assets/background.png";
+import bgHome from "./assets/background.png"
 
 function App() {
   return (

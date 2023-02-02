@@ -1,5 +1,5 @@
 import "./App.css";
-import bgHome from "./assets/background.png";
+import bgHome from "../assets/BG 17.png"
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
             <div class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
               <h1 class="text-4xl font-bold text-gray-800">Teka Teki Silang</h1>
             </div>
-            <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
-              <img src={bgHome} class="w-full h-full object-cover" alt="" />
+            <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0" style={{ backgroundImage: `url(${bgHome})`}}>
+              aaa
             </div>
           </div>
         </div>
